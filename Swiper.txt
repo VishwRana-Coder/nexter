@@ -1,0 +1,39 @@
+<Swiper
+              navigation={true}
+              modules={[Navigation]}
+              className="md:h-[300px] h-[200px] mt-2 mb-5"
+              loop={true}
+            >
+              <SwiperSlide>
+                <div className="flex justify-center items-center w-full h-full">
+                  <div className="relative h-[200px] w-[300px] md:h-[400px] md:w-[100%]">
+                    <Image
+                      src={
+                        "https://t3.ftcdn.net/jpg/04/49/19/08/360_F_449190831_i2whvIQdDIGtuIVWT6QfenWwmRApVJ5l.jpg"
+                      }
+                      alt="Post image"
+                      sizes="300px"
+                      fill
+                      style={{ objectFit: "contain" }}
+                      className="rounded-md"
+                      priority
+                    />
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="flex justify-center items-center w-full h-full">
+                  <div className="relative h-[200px] w-[300px] md:h-[400px] md:w-[100%]">
+                    <Image
+                      src={
+                        "https://i.pinimg.com/236x/fa/d5/e7/fad5e79954583ad50ccb3f16ee64f66d.jpg"
+                      }
+                      alt="Post image"
+                      sizes="400px"
+                      fill
+                      className="rounded-md object-contain"
+                    />
+                  </div>
+                </div>
+              </SwiperSlide>
+            </Swiper>

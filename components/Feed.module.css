@@ -1,0 +1,47 @@
+.postContent h1 {
+  font-size: 25px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.postContent h2 {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.postContent h3 {
+  font-size: 15px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.postContent p {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.postContent ul {
+  list-style: disc;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.postContent ol {
+  list-style: lower;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.postContent a {
+  color: rgb(85, 142, 255);
+  text-decoration: underline;
+}

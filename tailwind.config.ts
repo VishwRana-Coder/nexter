@@ -41,11 +41,13 @@ const config = {
           background: "#f4f4f4", //Background Color
           accent: "#344ceb", //Additional Color
           primary: "#1f1f1f", //Main Color
+          secondary: "#5b99fc",
         }, //For light theme
         dark: {
           background: "#1f1f1f", //Background Color
           accent: "#2b5fd9", //Additional Color
           primary: "#f4f4f4", //Main Color
+          secondary: "#3382ff",
         }, //For dark theme
       },
     },
