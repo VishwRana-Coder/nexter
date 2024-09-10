@@ -81,6 +81,7 @@ const MobileNav = () => {
                     return (
                       <Link
                         href={item.path}
+                        key={index}
                         className="flex items-center flex-col"
                       >
                         <span className="text-xl">{item.icons}</span>

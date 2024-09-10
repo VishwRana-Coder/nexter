@@ -55,7 +55,7 @@ const Nav = () => {
           <ul className="flex gap-10 text-[#505050]">
             {nav_items.map((item, index) => {
               return (
-                <Link href={item.path} className="flex flex-col items-center">
+                <Link href={item.path} key={index} className="flex flex-col items-center">
                   <span
                     className={`${
                       pathName === item.path &&

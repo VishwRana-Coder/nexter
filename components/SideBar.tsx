@@ -74,6 +74,7 @@ const SideBar = () => {
                 className={`mt-3 h-[50px] font-semibold rounded-xl flex justify-center items-center ${
                   item.path === pathName && "text-[#F8FAFC] bg-[#0F172A]"
                 }`}
+                key={index}
               >
                 {item.name}
               </li>
@@ -130,6 +131,7 @@ const SideBar = () => {
                         className={`mt-3 h-[50px] font-semibold rounded-xl flex justify-center items-center ${
                           item.path === pathName && "text-white bg-[#0F172A]"
                         }`}
+                        key={index}
                       >
                         {item.name}
                       </li>

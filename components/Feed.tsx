@@ -51,9 +51,9 @@ const Feed: React.FC = () => {
 
   return (
     <div className="w-100% flex items-center flex-col">
-      {mainPost.map((item) => (
+      {mainPost.map((item, index) => (
         <main
-          key={item._id}
+          key={index}
           className="bg-[#F2F2F2] flex md:w-[70%] w-[80%] border border-[#d6d6d6] rounded-lg flex-col mb-10 text-[14px]"
         >
           <Link href="">
