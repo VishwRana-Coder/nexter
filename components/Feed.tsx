@@ -93,7 +93,8 @@ const Feed: React.FC = () => {
             >
               {item.imageUrls.map((photourl, key) => {
                 return (
-                  <SwiperSlide>
+                  <div key={key}>
+                    <SwiperSlide>
                     <div className="flex justify-center items-center w-full h-full">
                       <div className="relative h-[200px] w-[300px] md:h-[100%] md:w-[100%]">
                         <Image
@@ -106,6 +107,7 @@ const Feed: React.FC = () => {
                       </div>
                     </div>
                   </SwiperSlide>
+                  </div>
                 );
               })}
             </Swiper>
