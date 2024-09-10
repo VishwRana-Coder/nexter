@@ -10,7 +10,6 @@ import {
   SheetHeader,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import WritePost from "./WritePostModal";
 
 // Importing Icons
 import { FaHome, FaBell, FaUser } from "react-icons/fa";
@@ -67,7 +66,6 @@ const SideBar = () => {
         </Link>
         {/* Write Post */}
         <div className="mt-5">
-          <WritePost />
         </div>
         <ul className="mt-10">
           {nav_items.map((item, index) => (
@@ -146,7 +144,6 @@ const SideBar = () => {
       <div className="md:hidden flex px-10 mt-10 justify-center">
         {/* Write Post */}
         <div className="mt-5 w-full max-w-[400px]">
-          <WritePost />
         </div>
       </div>
     </>

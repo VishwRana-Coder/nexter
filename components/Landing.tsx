@@ -34,7 +34,6 @@ const Landing = () => {
     const { id, value } = e.target;
     setFormState((prevState) => ({ ...prevState, [id]: value }));
   };
-
   const handleBlur = (e: FocusEvent<HTMLInputElement>) => {
     const { id } = e.target;
     setTouched((prevState) => ({ ...prevState, [id]: true }));
@@ -42,10 +41,6 @@ const Landing = () => {
 
   const isInputInvalid = (field: keyof typeof formState) =>
     touched[field] && !formState[field];
-
-
-
- const userPhoto = localStorage.getItem('Photo');
 
 
   //function for SignUp
